@@ -2,7 +2,7 @@ import asyncio
 import logging
 
 from core.bot import TelegramBot
-from tgbot.config import load_config
+from core.config import load_config
 
 logger = logging.getLogger(__name__)
 
